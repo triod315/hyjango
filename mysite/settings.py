@@ -25,7 +25,9 @@ SECRET_KEY = 'nq8e)lvf(aswh+h*r%^5f7$e3ahz9+mjj-+a7c_@23rl$x$vym'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'triod315.pythonanywhere.com'
+]
 
 
 # Application definition
@@ -120,4 +122,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
